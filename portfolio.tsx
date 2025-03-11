@@ -6,8 +6,6 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Linkedin, Github, Mail, ExternalLink, Circle, Moon, Sun, Youtube, Music } from "lucide-react"
-import Image1 from '../next-portfolio-app/images/Cute Avatar.png'
-import Image2 from '../next-portfolio-app/images/bg (1).jpg'
 
 export default function Portfolio() {
   const [isDarkMode, setIsDarkMode] = useState(true)
@@ -25,15 +23,15 @@ export default function Portfolio() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <Image
-                  src={Image1}
+                  src="/placeholder.svg?height=80&width=80"
                   alt="Profile picture"
                   width={56}
                   height={56}
                   className="rounded-full border dark:border-zinc-700"
                 />
                 <div>
-                  <h1 className="text-xl font-semibold dark:text-white">Rishabh Manoj Jain</h1>
-                  <p className="text-gray-500 dark:text-gray-400">@rishabhmj</p>
+                  <h1 className="text-xl font-semibold dark:text-white">Jonatan von Martens</h1>
+                  <p className="text-gray-500 dark:text-gray-400">@jonatanvm</p>
                 </div>
               </div>
               <Button
@@ -119,7 +117,7 @@ export default function Portfolio() {
               </p>
               <div className="ml-6 border dark:border-zinc-800 rounded-lg overflow-hidden">
                 <Image
-                  src={Image2}
+                  src="/placeholder.svg?height=200&width=400"
                   alt="AI Engineer Pack project screenshot"
                   width={400}
                   height={200}
@@ -161,7 +159,7 @@ export default function Portfolio() {
               </p>
               <div className="ml-6 border dark:border-zinc-800 rounded-lg overflow-hidden">
                 <Image
-                  src={Image2}
+                  src="/placeholder.svg?height=200&width=400"
                   alt="X to Voice project screenshot"
                   width={400}
                   height={200}
