@@ -19,28 +19,28 @@ export default function Experience() {
 
       <div className="relative">
         {experienceData.map((exp, index) => {
-            return (
+          return (
             <div key={index} className="relative pl-10 pb-6">
               <Circle className="absolute left-0 top-1.5 h-4 w-4 fill-current dark:text-white" />
-              <h3 className="text-lg font-medium dark:text-white">
-              {exp.company}
+              <h3 className="text-lg font-medium dark:text-white flex items-center">
+                {exp.company}
+                {exp.links.map((link, linkIndex) => (
+                  <Link
+                    key={linkIndex}
+                    href={link.href}
+                    target="_blank"
+                    className="ml-1 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+                  >
+                    <link.icon className="h-4 w-4" />
+                  </Link>
+                ))}
               </h3>
               <p className="text-gray-600 dark:text-gray-400">{exp.role}</p>
               <p className="text-sm text-gray-500 dark:text-gray-500">
-              {exp.date}
+                {exp.date}
               </p>
-              {exp.links.map((link, linkIndex) => (
-              <Link
-                key={linkIndex}
-                href={link.href}
-                target="_blank"
-                className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
-              >
-                <link.icon className="h-4 w-4" />
-              </Link>
-              ))}
             </div>
-            );
+          );
         })}
       </div>
     </Card>

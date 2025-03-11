@@ -9,45 +9,45 @@ const projects = [
   {
     title: "Developer Q&A Hub",
     description:
-      "Built a website for ElevenLabs, where AI Engineers can redeem discount codes to top AI tools. The platform features a user-friendly interface, secure authentication, and integration with various AI tool providers.",
+      "Built a website where developers can ask and answer technical questions, similar to Stack Overflow but with an improved UI and better community engagement. The platform features a structured tagging system, reputation-based rewards, and real-time notifications to keep users engaged.",
     image: Image2,
     links: [
-      { href: "#", icon: ExternalLink },
-      { href: "#", icon: Youtube },
-      { href: "#", icon: Github },
+      { href: "/", icon: ExternalLink },
+      { href: "/", icon: Youtube },
+      { href: "/", icon: Github },
     ],
   },
   {
     title: "Invoice Generator",
     description:
-      "Developed an innovative application that converts text posts from X (formerly Twitter) into lifelike voice recordings. Utilizing advanced text-to-speech technology, this project offers users a unique way to consume social media content.",
+      "Developed an intuitive application that allows businesses and freelancers to generate professional invoices effortlessly. The platform includes customizable templates, automatic tax calculations, and PDF export functionality, making invoicing seamless and efficient.",
     image: Image2,
     links: [
-      { href: "#", icon: ExternalLink },
-      { href: "#", icon: Youtube },
-      { href: "#", icon: Github },
+      { href: "/", icon: ExternalLink },
+      { href: "/", icon: Youtube },
+      { href: "/", icon: Github },
     ],
   },
   {
     title: "Railway Management System",
     description:
-      "Developed an innovative application that converts text posts from X (formerly Twitter) into lifelike voice recordings. Utilizing advanced text-to-speech technology, this project offers users a unique way to consume social media content.",
+      "Built a comprehensive system for railway operations, enabling users to manage train schedules, ticket bookings, and real-time status tracking. The platform features an interactive dashboard, automated fare calculations, and a secure reservation system to enhance user experience.",
     image: Image2,
     links: [
-      { href: "#", icon: ExternalLink },
-      { href: "#", icon: Youtube },
-      { href: "#", icon: Github },
+      { href: "/", icon: ExternalLink },
+      { href: "/", icon: Youtube },
+      { href: "/", icon: Github },
     ],
   },
   {
     title: "Finance Tracker",
     description:
-      "Developed an innovative application that converts text posts from X (formerly Twitter) into lifelike voice recordings. Utilizing advanced text-to-speech technology, this project offers users a unique way to consume social media content.",
+      "Developed an intelligent application that helps users manage their personal and business finances with ease. Featuring expense categorization, income tracking, and visual analytics, the platform empowers users to make informed financial decisions.",
     image: Image2,
     links: [
-      { href: "#", icon: ExternalLink },
-      { href: "#", icon: Youtube },
-      { href: "#", icon: Github },
+      { href: "/", icon: ExternalLink },
+      { href: "/", icon: Youtube },
+      { href: "/", icon: Github },
     ],
   },
 ];
